@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# 🚀 Star Wars Explorer
+
+Веб-приложение, созданное на **React.js** с использованием **Three.js** и открытого API **SWAPI** для погружения в мир «Звёздных войн».
+
+## 📌 Возможности
+- 🔍 Поиск персонажей, планет, кораблей и фильмов по данным SWAPI
+- 🌌 Визуализация 3D-моделей с помощью Three.js
+- ⚡ Быстрая и отзывчивая работа на React
+- 📱 Адаптивный дизайн для мобильных и десктопных устройств
+
+## 🛠 Технологии
+- **React.js** — основа фронтенда
+- **Three.js** — рендеринг и анимация 3D-сцен
+- **SWAPI** — источник данных о вселенной Star Wars
+- **JavaScript (ES6+)** и **CSS Modules**
+
+## 🚀 Запуск проекта
+```bash
+git clone https://github.com/yourusername/star-wars-explorer.git
+cd star-wars-explorer
+npm install
+npm start
+>>>>>>> bc05336e2e160190afbf1e8040aca6b6f2122165
