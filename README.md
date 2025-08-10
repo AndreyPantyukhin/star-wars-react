@@ -1,95 +1,69 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+🌌 Star Wars Interactive App
+🇷🇺 Описание
+Это интерактивное веб-приложение, посвящённое вселенной Star Wars.
+Оно сочетает в себе анимацию, 3D-графику и данные из открытого API SWAPI, чтобы создать захватывающий пользовательский опыт.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Используемые технологии:
 
-## Available Scripts
+React JS — для построения интерфейса и управления состоянием
 
-In the project directory, you can run:
+Three JS — для рендеринга 3D-сцен и моделей
 
-### `npm start`
+GSAP — для плавных анимаций и переходов
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SWAPI — источник данных о персонажах, планетах, кораблях и других элементах вселенной
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Приложение позволяет исследовать персонажей, транспорт и события в уникальной визуальной форме, вдохновлённой культовой сагой.
 
-### `npm test`
+🇬🇧 Description
+This is an interactive web application dedicated to the Star Wars universe.
+It combines animation, 3D graphics, and data from the SWAPI open API to deliver an engaging user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies used:
 
-### `npm run build`
+React JS — for building the UI and managing state
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Three JS — for rendering 3D scenes and models
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+GSAP — for smooth animations and transitions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+SWAPI — the source of data about characters, planets, starships, and other universe elements
 
-### `npm run eject`
+The application lets users explore characters, vehicles, and events in a unique visual format inspired by the iconic saga.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📦 🇷🇺 Установка | 🇬🇧 Installation
+bash
+Копировать
+Редактировать
+# Клонировать репозиторий / Clone the repository
+git clone https://github.com/username/star-wars-app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Перейти в папку проекта / Go to project folder
+cd star-wars-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# 🚀 Star Wars Explorer
-
-Веб-приложение, созданное на **React.js** с использованием **Three.js** и открытого API **SWAPI** для погружения в мир «Звёздных войн».
-
-## 📌 Возможности
-- 🔍 Поиск персонажей, планет, кораблей и фильмов по данным SWAPI
-- 🌌 Визуализация 3D-моделей с помощью Three.js
-- ⚡ Быстрая и отзывчивая работа на React
-- 📱 Адаптивный дизайн для мобильных и десктопных устройств
-
-## 🛠 Технологии
-- **React.js** — основа фронтенда
-- **Three.js** — рендеринг и анимация 3D-сцен
-- **SWAPI** — источник данных о вселенной Star Wars
-- **JavaScript (ES6+)** и **CSS Modules**
-
-## 🚀 Запуск проекта
-```bash
-git clone https://github.com/yourusername/star-wars-explorer.git
-cd star-wars-explorer
+# Установить зависимости / Install dependencies
 npm install
+🚀 🇷🇺 Запуск | 🇬🇧 Run
+bash
+Копировать
+Редактировать
+# Запуск в режиме разработки / Development mode
 npm start
->>>>>>> bc05336e2e160190afbf1e8040aca6b6f2122165
+
+# Сборка для продакшена / Build for production
+npm run build
+После запуска откройте http://localhost:3000 в браузере.
+After starting, open http://localhost:3000 in your browser.
+
+📸 🇷🇺 Скриншоты | 🇬🇧 Screenshots
+(Добавьте сюда изображения приложения)
+(Add your app screenshots here)
+
+🛠 🇷🇺 Дополнительно | 🇬🇧 Additional
+🇷🇺 Источник данных: https://swapi.dev
+
+🇬🇧 Data source: https://swapi.dev
+
+🇷🇺 Проект создан в образовательных целях и не связан с Lucasfilm или Disney.
+
+🇬🇧 Project is created for educational purposes and is not affiliated with Lucasfilm or Disney.
